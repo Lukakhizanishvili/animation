@@ -65,5 +65,17 @@ body{
 	color: yellow;
 	white-space: nowrap;
 	font-size: 30px;
-
+}
+.read-more{
+	text-transform: uppercase;
+	right: 5px;
+	bottom: 0px;
+	color: #42922E;
+	font-size: 15px;
+}
+.Create{
+	bottom: 0;
+	right: 0;
+	color: yellow;
+    font-size: 15px;
 }
