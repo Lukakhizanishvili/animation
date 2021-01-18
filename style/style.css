@@ -21,7 +21,7 @@ body{
 }
 
 .navbari-nav{
-    position: absolute;
+    /*position: absolute;*/
 	top: 37px;
 	left: 20px;
 }
@@ -34,7 +34,7 @@ body{
 }
 
 .logo{
-	position: absolute;
+	/*position: absolute;*/
     top: 97px;
     right: 190px;
     width: 300px;
@@ -43,14 +43,14 @@ body{
 .white-box{
 	width: 618px;
 	height: 448px;
-	position: absolute;
+	/*position: absolute;*/
 	bottom: 0;
 	left: 0;
 	margin: 0 0 -4px -4px;
 	background-color: white;
 }
 .green-box{
-	position: absolute;
+	/*position: absolute;*/
 	top:50%;
 	right: 50%;
 	transform: translate(50%,-50%);
@@ -58,4 +58,6 @@ body{
     height: 250px;
 	background-color: #42922E;
 }
-
+.p-absolute{
+	position: absolute;
+}
