@@ -9,8 +9,24 @@ body{
 	background-color: #388326;
 	border: 4px solid #2A4723;
 	height:100%;
+	position: relative;
 }
 .body-title{
 	text-align: center;
+
+}
+.navbari-nav{
+    position: absolute;
+	top: 37px;
+	left: 20px;
+}
+
+.navbar-li{
+	font-size: 30px;
+	display: inline-block;
+	margin-left: 30px;
+	text-transform: uppercase;
+	color: white;
 	
+
 }
