@@ -57,3 +57,13 @@ body{
 .p-absolute{
 	position: absolute;
 }
+.green-box-title{
+	text-transform: uppercase;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(45deg);
+	color: yellow;
+	white-space: nowrap;
+	font-size: 30px;
+
+}
