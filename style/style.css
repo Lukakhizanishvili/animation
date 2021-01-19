@@ -37,6 +37,7 @@ body{
     right: 190px;
     width: 300px;
     height: 300px;
+    opacity: 0.35;
 }
 .white-box{
 	width: 618px;
@@ -46,13 +47,19 @@ body{
 	background-color: white;
 }
 .green-box{
-	
 	top:50%;
 	right: 50%;
 	transform: translate(50%,-50%);
 	width: 250px;
     height: 250px;
 	background-color: #42922E;
+    opacity: 0.5;
+    transition:all 0.2s ease-in 2s;
+    cursor: pointer;
+}
+.green-box:hover{
+	background-color: yellow;
+	/*transition:all 0.2s ease-in 2s;*/
 }
 .p-absolute{
 	position: absolute;
@@ -65,6 +72,14 @@ body{
 	color: yellow;
 	white-space: nowrap;
 	font-size: 30px;
+	transition-property: all;
+	transition-delay: 0.2s;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+}
+.green-box-title:hover{
+	transform: translate(-50%,-50%) rotate(0deg);
+	color: red;
 }
 .read-more{
 	text-transform: uppercase;
